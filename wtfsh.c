@@ -8,6 +8,6 @@ int main(void) {
   char *newenv[] = { NULL };
   char *line = readline("$ ");
   execve(line, newargv, newenv);
-  perror("wtf");
+  perror("WTF");
   exit(EXIT_FAILURE);
 }
